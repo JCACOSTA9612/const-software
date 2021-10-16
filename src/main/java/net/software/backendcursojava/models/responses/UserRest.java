@@ -2,18 +2,26 @@ package net.software.backendcursojava.models.responses;
 
 public class UserRest {
 
+<<<<<<< HEAD
     private String userId; 
+=======
+    private String userId;
+>>>>>>> 794d737a180a0bafca4c2a8884c40b4845b9394f
     private String firstName;
     private String lastName;
     private String email;
     
 
+<<<<<<< HEAD
     public String getUserId() {
         return userId;
     }
     public void setUserId(String userId) {
         this.userId = userId;
     }
+=======
+    
+>>>>>>> 794d737a180a0bafca4c2a8884c40b4845b9394f
     public String getFirstName() {
         return firstName;
     }
@@ -32,6 +40,15 @@ public class UserRest {
     public void setEmail(String email) {
         this.email = email;
     }
+<<<<<<< HEAD
     
+=======
+    public String getUserId() {
+        return userId;
+    }
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+>>>>>>> 794d737a180a0bafca4c2a8884c40b4845b9394f
     
 }
